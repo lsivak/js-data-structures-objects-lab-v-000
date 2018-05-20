@@ -1,3 +1,1 @@
-const drivers = {
-  driver: name
-}
+const driver = {}
