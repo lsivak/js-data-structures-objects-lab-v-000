@@ -7,8 +7,8 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   return Object.assign(driver, {[key]: value})
 }
 function deleteFromDriverByKey(driver, key) {
-  let newDriver = Object.assign({}, driver, {[key]: value})
-return delete newDriver.key
+  Object.assign({}, driver, {[key]: value})
+return delete driver.key
 }
 function destructivelyDeleteFromDriverByKey(driver, key) {
   return driver = delete driver[key]
