@@ -1,4 +1,4 @@
-const driver = {}
+const driver = {name: name}
 
 updateDriverWithKeyAndValue(driver, key, value) {
   driver : {
